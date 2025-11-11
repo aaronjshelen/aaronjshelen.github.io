@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Aaron's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <h1>Aaron Shelenberger</h1>
+            <img src="pics/me.png" alt="me" class="profile-photo">
+
+            <nav>
+                <a href="index.html">home</a>
+                <a href="index.html#about">about</a>
+                <a href="index.html#experience">experience</a>
+                <a href="index.html#projects">projects</a>
+                <a href="blog.html">blog</a>
+            </nav>
+
+            <div class="contact">
+                email: <a href="mailto:aaronjshelen@gmail.com">aaronjshelen@gmail.com</a><br>
+                phone: <a href="tel:+19047537131">+1 (904) 753-7131</a><br><br>
+                <a href="https://linkedin.com/in/aaronjshelen" target="_blank">linkedin</a><br>
+                <a href="https://github.com/aaronjshelen" target="_blank">github</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section id="blog">
+                <h2>what i've been up to</h2>
+
+                <div class="blog-item">
+                    <div class="blog-date">October 24-26, 2025</div>
+                    <div class="blog-title">CalHacks at UC Berkeley</div>
+                    <div class="blog-excerpt">
+                        Attended CalHacks 12.0 hosted by UC Berkeley at the Palace of Fine Arts. Built an AI-powered document relationship visualizer and met some awesome friends at Berkeley. The venue was incredible and the energy was amazing!
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="pics/calhacks/placeholder1.jpg" alt="CalHacks 1">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="pics/calhacks/placeholder2.jpg" alt="CalHacks 2">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="pics/calhacks/placeholder3.jpg" alt="CalHacks 3">
+                            </div>
+                        </div>
+                        <button class="carousel-btn prev" onclick="moveSlide(this, -1)">&#10094;</button>
+                        <button class="carousel-btn next" onclick="moveSlide(this, 1)">&#10095;</button>
+                        <div class="carousel-dots"></div>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-date">September 26-28, 2025</div>
+                    <div class="blog-title">HackGT at Georgia Tech</div>
+                    <div class="blog-excerpt">
+                        Attended HackGT hosted by Georgia Tech. Met some really cool people and got a preview of the campus that would soon become my home for grad school. Great experience building and networking with talented developers.
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="pics/hackgt/placeholder1.jpg" alt="HackGT 1">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="pics/hackgt/placeholder2.jpg" alt="HackGT 2">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="pics/hackgt/placeholder3.jpg" alt="HackGT 3">
+                            </div>
+                        </div>
+                        <button class="carousel-btn prev" onclick="moveSlide(this, -1)">&#10094;</button>
+                        <button class="carousel-btn next" onclick="moveSlide(this, 1)">&#10095;</button>
+                        <div class="carousel-dots"></div>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-date">August 25, 2025</div>
+                    <div class="blog-title">Started My Master's at Georgia Tech</div>
+                    <div class="blog-excerpt">
+                        Excited to begin my Master's in Computer Science at Georgia Tech with a specialization in Machine Learning. Looking forward to diving deeper into machine learning and taking on new challenges in the field.
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-date">June 2025</div>
+                    <div class="blog-title">Started as Data Science Intern at The Energy Authority</div>
+                    <div class="blog-excerpt">
+                        Began my role as a Data Science Intern at The Energy Authority, focusing on electricity price forecasting models and working with energy traders to support informed decision-making in trading operations.
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-date">May 2, 2025</div>
+                    <div class="blog-title">Graduated from University of North Florida</div>
+                    <div class="blog-excerpt">
+                        Graduated from the University of North Florida with a Bachelor of Science in Computer Science. Proud to complete this chapter and excited for what's next in my journey in computer science and machine learning.
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="pics/unf_grad/placeholder1.jpg" alt="UNF Graduation 1">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="pics/unf_grad/placeholder2.jpg" alt="UNF Graduation 2">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="pics/unf_grad/placeholder3.jpg" alt="UNF Graduation 3">
+                            </div>
+                        </div>
+                        <button class="carousel-btn prev" onclick="moveSlide(this, -1)">&#10094;</button>
+                        <button class="carousel-btn next" onclick="moveSlide(this, 1)">&#10095;</button>
+                        <div class="carousel-dots"></div>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-date">April 11, 2025</div>
+                    <div class="blog-title">Presented at UNF SOAR Symposium</div>
+                    <div class="blog-excerpt">
+                        Presented research at the UNF SOAR (Showcase of Osprey Advancements in Research) Symposium titled "Toward Proper Exercise Form Assessment via Computer Vision & Lightweight Gesture Recognition". Great experience sharing my research with the academic community.
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="pics/soar/placeholder1.jpg" alt="SOAR Symposium 1">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="pics/soar/placeholder2.jpg" alt="SOAR Symposium 2">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="pics/soar/placeholder3.jpg" alt="SOAR Symposium 3">
+                            </div>
+                        </div>
+                        <button class="carousel-btn prev" onclick="moveSlide(this, -1)">&#10094;</button>
+                        <button class="carousel-btn next" onclick="moveSlide(this, 1)">&#10095;</button>
+                        <div class="carousel-dots"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

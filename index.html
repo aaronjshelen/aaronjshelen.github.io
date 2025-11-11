@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <h1>Aaron Shelenberger</h1>
+            <img src="pics/me.png" alt="me" class="profile-photo">
+            
+            <nav>
+                <a href="#about">about</a>
+                <a href="#experience">experience</a>
+                <a href="#projects">projects</a>
+                <a href="blog.html">blog</a>
+            </nav>
+
+            <div class="contact">
+                email: <a href="mailto:aaronjshelen@gmail.com">aaronjshelen@gmail.com</a><br>
+                phone: <a href="tel:+19047537131">+1 (904) 753-7131</a><br><br>
+                <a href="https://linkedin.com/in/aaronjshelen" target="_blank">linkedin</a><br>
+                <a href="https://github.com/aaronjshelen" target="_blank">github</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section id="about">
+                <div class="intro-text">
+                    <p style="margin-bottom: 1.5rem;">
+                        I'm a Master's student in Computer Science at Georgia Tech holding a Bachelor's of Science in Computer Science from the University of North Florida with a minor in Mathematics.
+                    </p>
+                    <p style="margin-bottom: 1.5rem;">
+                        My experience ranges from data science internships at The Energy Authority to cybersecurity research at the University of Florida through an NSF-funded REU program. I have a strong foundation in Python, machine learning, and automation.
+                    </p>
+                    <p>
+                        When I'm not on the computer, I enjoy traveling, meal-prepping, and going to the gym. I also like watching the Jacksonville Jaguars win.
+                    </p>
+                </div>
+            </section>
+
+            <section id="experience">
+                <h2>experience</h2>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-title">Data Science Intern</div>
+                        <div class="experience-date">Jun 2025 – Present</div>
+                    </div>
+                    <div class="experience-company">The Energy Authority</div>
+                    <ul>
+                        <li>Conducted feature engineering and sensitivity analyses on electricity price forecasting models across multiple U.S. energy markets to identify key drivers of price volatility and improve model accuracy.</li>
+                        <li>Evaluated and compared machine learning models to determine optimal forecasting approaches for distinct regional markets, enhancing predictive performance for trading strategy development.</li>
+                        <li>Collaborated with energy traders to communicate data-driven insights on fuel price impacts and model outcomes, supporting informed decision-making in day-ahead and real-time trading operations.</li>
+                    </ul>
+                    <div class="experience-skills">Skills: R, MongoDB, Databricks</div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-title">Automation Intern</div>
+                        <div class="experience-date">Nov 2024 – May 2025</div>
+                    </div>
+                    <div class="experience-company">The Energy Authority</div>
+                    <ul>
+                        <li>Developed Python automation scripts with RPA, reducing manual processing time by over 80%.</li>
+                        <li>Created dashboards using Plotly Dash and SQL for financial loss allocation and real-time transaction data visualization.</li>
+                        <li>Ensured 99% data accuracy in financial reporting through SQL Server queries and data processing.</li>
+                    </ul>
+                    <div class="experience-skills">Skills: Python, SQL</div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-title">Information Security Intern</div>
+                        <div class="experience-date">Mar 2024 – Nov 2024</div>
+                    </div>
+                    <div class="experience-company">Nemours Children's Health</div>
+                    <ul>
+                        <li>Designed strategies for managing phishing threats, improving detection and response times by 30%.</li>
+                        <li>Designed Python scripts with Selenium and BeautifulSoup to automate phishing email analysis workflows.</li>
+                        <li>Managed automated simulated phishing campaigns to enhance organization-wide security awareness.</li>
+                    </ul>
+                    <div class="experience-skills">Skills: Python, Splunk</div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-title">REU Undergraduate Researcher</div>
+                        <div class="experience-date">May 2023 – Aug 2023</div>
+                    </div>
+                    <div class="experience-company">University of Florida</div>
+                    <ul>
+                        <li>Selected for NSF-funded REU program on "Secure, Accessible, Sustainable Transportation (SAST)".</li>
+                        <li>Engineered Python programs to interface with LLMs for identifying vulnerabilities across various SoCs.</li>
+                        <li>Contributed to SPELL framework leveraging LLMs to identify cyberattacks threatening SoC configurations.</li>
+                    </ul>
+                    <div class="experience-skills">Skills: Python</div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>projects</h2>
+
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="pics/trading_bot.png" alt="Trading Bot">
+                    </div>
+                    <div class="project-title">Reinforcement Learning Algorithmic Trading Bot</div>
+                    <div class="project-description">
+                        Designed Q-learning–based trading agent that autonomously learned long/short equity positions using market indicators. Built vectorized backtesting framework to evaluate performance and optimize cumulative return and Sharpe ratio.
+                    </div>
+                    <a  target="_blank" class="github-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="pics/con_the_docs.png" alt="Connect the Docs">
+                        
+                    </div>
+                    <div class="project-title">Connect the Docs - CalHacks 12.0</div>
+                    <div class="project-description">
+                        Built AI-powered document relationship visualizer transforming uploaded files into interactive 3D knowledge graphs. Integrated LLM-based semantic analysis with Three.js visualization in React front-end.
+                    </div>
+                    <a href="https://github.com/aaronjshelen/connect-the-docs" target="_blank" class="github-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Add more projects here -->
+                <!-- <div class="project-item">
+                    <div class="project-image"> -->
+                        <!-- <img src="your-image.jpg" alt="Project Name"> -->
+                        <!-- [add project image]
+                    </div>
+                    <div class="project-title">Your Project Title</div>
+                    <div class="project-description">
+                        Add your project description here. Keep it concise and focused on what you built and the technologies used.
+                    </div>
+                    <a href="https://github.com/yourusername/your-repo" target="_blank" class="github-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a> -->
+                <!-- </div> -->
+            </section>
+
+            <section id="blog">
+                <h2>what i've been up to</h2>
+
+                <div class="blog-item">
+                    <div class="blog-date">October 24-26, 2024</div>
+                    <div class="blog-title">CalHacks at UC Berkeley</div>
+                    <div class="blog-excerpt">
+                        Attended CalHacks 12.0 hosted by UC Berkeley at the Palace of Fine Arts. Built an AI-powered document relationship visualizer and met some awesome friends at Berkeley. The venue was incredible and the energy was amazing!
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="pics/calhacks/placeholder1.jpg" alt="CalHacks 1">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="pics/calhacks/placeholder2.jpg" alt="CalHacks 2">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="pics/calhacks/placeholder3.jpg" alt="CalHacks 3">
+                            </div>
+                        </div>
+                        <button class="carousel-btn prev" onclick="moveSlide(this, -1)">&#10094;</button>
+                        <button class="carousel-btn next" onclick="moveSlide(this, 1)">&#10095;</button>
+                        <div class="carousel-dots"></div>
+                    </div>
+                </div>
+
+                <a href="blog.html" class="blog-button">View All Posts</a>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
