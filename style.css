@@ -332,15 +332,146 @@ h2 {
         width: 100%;
         position: relative;
         height: auto;
-        padding: 40px 30px;
+        padding: 30px 20px;
+        text-align: center;
     }
 
     .sidebar h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 1.5rem;
+    }
+
+    .sidebar nav {
         margin-bottom: 2rem;
+    }
+
+    .sidebar nav a {
+        display: inline-block;
+        margin: 0 0.75rem 0.75rem 0.75rem;
+        font-size: 0.95rem;
+    }
+
+    .contact {
+        font-size: 0.85rem;
     }
 
     .main-content {
         margin-left: 0;
-        padding: 40px 30px;
+        padding: 30px 20px;
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    section {
+        margin-bottom: 3rem;
+    }
+
+    #about h2 {
+        margin-top: 0;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+
+    .intro-text {
+        font-size: 0.95rem;
+    }
+
+    .experience-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.2rem;
+    }
+
+    .experience-date {
+        font-size: 0.85rem;
+    }
+
+    .experience-title {
+        font-size: 0.95rem;
+    }
+
+    .experience-company {
+        font-size: 0.9rem;
+    }
+
+    .experience-item li {
+        font-size: 0.9rem;
+    }
+
+    .project-image {
+        height: 200px;
+    }
+
+    .project-title {
+        font-size: 1rem;
+    }
+
+    .project-description {
+        font-size: 0.9rem;
+    }
+
+    .carousel-slide img {
+        height: 300px;
+    }
+
+    .blog-title {
+        font-size: 1rem;
+    }
+
+    .blog-excerpt {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        padding: 20px 15px;
+    }
+
+    .sidebar h1 {
+        font-size: 1.3rem;
+    }
+
+    .profile-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-content {
+        padding: 20px 15px;
+    }
+
+    .intro-text {
+        font-size: 0.9rem;
+    }
+
+    .experience-item ul {
+        margin-left: 1rem;
+    }
+
+    .experience-item li {
+        font-size: 0.85rem;
+    }
+
+    .project-image {
+        height: 150px;
+    }
+
+    .carousel-slide img {
+        height: 250px;
+    }
+
+    .carousel-btn {
+        padding: 8px 12px;
+        font-size: 14px;
     }
 }
